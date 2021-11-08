@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="text-align: center; color:blue">calculator</h1>
+  <div class="search">
+      <div class="output">
+          <input  placeholder="0" id="input1" class="inp"  />
+      </div>
+      <div class="butflex">
+          <button class="but" >Deg</button>
+          <button class="but">Inv</button>
+          <button onclick="del()"class="but">Del</button>
+          <button onclick="calculate('(')" class="but no">(</button>
+          <button onclick="calculate(')')" class="but no">)</button>
+          <button onclick="clr()" class="but no">clear</button>
+          <button onclick="calculate('/')" class="but imp">/</button>
+          <button class="but">ln</button>
+          <button class="but">Sin</button>
+          <button onclick="calculate('%')"class="but">%</button>
+          <button onclick="calculate(7)" class="but no">7</button>
+          <button onclick="calculate(8)" class="but no">8</button>
+          <button onclick="calculate(9)" class="but no">9</button>
+          <button onclick="calculate('*')" class="but imp">*</button>
+          <button class="but">log</button>
+          <button class="but">Cos</button>
+          <button class="but">x!</button>
+          <button onclick="calculate(4)" class="but no">4</button>
+          <button onclick="calculate(5)" class="but no">5</button>
+          <button onclick="calculate(6)" class="but no">6</button>
+          <button onclick="calculate('-')" class="but imp">-</button>
+          <button class="but">pi</button>
+          <button class="but">tan</button>
+          <button class="but">x^y</button>
+          <button onclick="calculate(1)" class="but no">1</button>
+          <button onclick="calculate(2)" class="but no">2</button>
+          <button onclick="calculate(3)" class="but no">3</button>
+          <button onclick="calculate('+')" class="but imp">+</button>
+          <button class="but">e</button>
+          <button class="but">sqrt</button>
+          <button class="but">x^2</button>
+          <button onclick="calculate(0)" class="but no">0</button>
+          <button onclick="calculate('.')" class="but no">.</button>
+          <button class="but no">exp</button>
+          <button onclick="result()"class="but no" style="background-color: blue;" id="p">=</button>
+      </div>
+  </div>  
+  <script src="./index.js"></script>
+</body>
+</html>

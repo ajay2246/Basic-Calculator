@@ -1,0 +1,43 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+.search{
+    border:1px solid black;
+    max-width:490px;
+    margin:auto;
+    border-radius: 5px;
+}
+.output{
+    margin-left:8px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.but{
+    width:70px;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.butflex{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:start;
+}
+.no{
+    background-color: rgb(199, 212, 211);
+}
+.imp{
+    background-color:rgb(151, 146, 146);
+}
+.inp{
+    width:95%;
+    height:50px;
+    border:2px solid black;
+    font-size:25px;
+    text-align: right;   
+}
